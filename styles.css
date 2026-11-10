@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Bobogie";
+    src: url("Assets/Bobogie\ Groovy.otf");
+}
+
+body {
+    font-family: "Bobogie", sans-serif;
+
+    background: #d9f6fa;
+    background: linear-gradient(0deg, rgba(217, 246, 250, 1) 0%, rgba(212, 185, 237, 1) 50%, rgba(255, 216, 209, 1) 100%);
+
+    color: #333;
+    max-width: 1000px;
+    min-height: 5000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    color: rgb(2, 2, 143);
+    text-align: center;
+    font-size: 75px;
+}
+
+h2{
+    color: rgb(85, 85, 190);
+    text-align: center;
+    font-size: 45px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: rgb(19, 3, 39);
+    border-style: solid;
+
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.link-container{
+    text-align: center;
+    font-size: 50px;
+}
+
+a {
+    color: rgb(2, 2, 143);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
